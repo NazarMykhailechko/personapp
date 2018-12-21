@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="persondb@NB-NAZAR">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>13.0.5026</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ReportServer$SQLEXPRESS">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="3" parent="1" name="ReportServer$SQLEXPRESSTempDB">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="4" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="persondb">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <schema id="9" parent="7" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.443</IntrospectionTimestamp>
+    </schema>
+    <schema id="10" parent="7" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.467</IntrospectionTimestamp>
+    </schema>
+    <schema id="11" parent="7" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.500</IntrospectionTimestamp>
+    </schema>
+    <schema id="12" parent="7" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.547</IntrospectionTimestamp>
+    </schema>
+    <schema id="13" parent="7" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.577</IntrospectionTimestamp>
+    </schema>
+    <schema id="14" parent="7" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.670</IntrospectionTimestamp>
+    </schema>
+    <schema id="15" parent="7" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.810</IntrospectionTimestamp>
+    </schema>
+    <schema id="16" parent="7" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.843</IntrospectionTimestamp>
+    </schema>
+    <schema id="17" parent="7" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.873</IntrospectionTimestamp>
+    </schema>
+    <schema id="18" parent="7" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:39.903</IntrospectionTimestamp>
+    </schema>
+    <schema id="19" parent="7" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:46:15.253</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="20" parent="7" name="guest">
+      <ObjectId>2</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:40.013</IntrospectionTimestamp>
+    </schema>
+    <schema id="21" parent="7" name="sys">
+      <ObjectId>4</ObjectId>
+      <IntrospectionTimestamp>2018-12-21.21:26:40.170</IntrospectionTimestamp>
+    </schema>
+    <table id="22" parent="19" name="Sheet1$">
+      <ObjectId>581577110</ObjectId>
+      <CreatedTimestamp>2018-12-04.00:53:41.487</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-04.00:53:41.487</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="19" name="Table_1">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2018-12-04.00:46:41.580</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-04.00:46:41.657</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="19" name="persons">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2018-12-21.21:46:12.423</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-21.21:46:12.423</ModifiedTimestamp>
+    </table>
+    <column id="25" parent="22" name="qwe">
+      <Position>1</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="26" parent="22" name="wer">
+      <Position>2</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="27" parent="22" name="ipop">
+      <Position>3</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="28" parent="23" name="dvawev">
+      <Position>1</Position>
+      <DataType>nchar(10 char)|0s</DataType>
+    </column>
+    <column id="29" parent="23" name="scwecwe">
+      <Position>2</Position>
+      <DataType>nchar(10 char)|0s</DataType>
+    </column>
+    <column id="30" parent="24" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>numeric(19)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="24" name="age">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="32" parent="24" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="33" parent="24" name="PK__persons__3213E83F30A31524">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="24" name="PK__persons__3213E83F30A31524">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-21.21:46:12.427</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-21.21:46:12.427</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__persons__3213E83F30A31524</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
